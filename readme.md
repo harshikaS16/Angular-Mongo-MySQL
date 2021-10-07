@@ -1,3 +1,13 @@
+# About
+  This project is to implement the integration of Angular 2, MongoDB and MySQL DB together. The integration is implemented by leveraging Node JS
+  Below are the features:
+  1. Page showing the columns 'Name', 'Date Of Birth', 'Email', 'Contact' with an Edit and Delete button for each record.
+  2. Data on the front end to be fetched from Mongo DB.
+  3. Add button to give the functionality of adding a new record.
+  4. Edit and Delete functionalities will update the MySQL DB
+  5. Write a CRON to fetch data from MySQL and dump it into Mongo DB after the specified interval of time.
+  6. Adding of the new users will also be done to MySQL.
+
 # Prerequisites for the Application:
 1. Node JS and Angular 5 installed
 2. Mongo DB and MySQL installed
